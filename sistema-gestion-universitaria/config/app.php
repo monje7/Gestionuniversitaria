@@ -4,6 +4,18 @@ use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
 return [
+    // config/app.php
+
+'providers' => [
+    // Otros proveedores
+    Laracasts\Flash\FlashServiceProvider::class,
+],
+
+'aliases' => [
+    // Otros alias
+    'Flash' => Laracasts\Flash\Flash::class,
+],
+
 
     /*
     |--------------------------------------------------------------------------

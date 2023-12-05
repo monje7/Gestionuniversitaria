@@ -71,4 +71,5 @@ class EstudianteController extends Controller
 
         return redirect()->route('estudiantes.index');
     }
+    
 }
